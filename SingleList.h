@@ -13,7 +13,21 @@
 
 #ifndef SINGLELIST_H
 #define SINGLELIST_H
+typedef struct Node
+{
+    int data; //数据域
+    struct Node * pnext; //指针域
+}NODE, *PNODE;
 
+void traverse_list(PNODE phead)
+{
+    PNODE p=phead;
+    while(p->pnext != NULL)
+    {
+        printf("%d\t",p->pnext->data);
+        p = p->pnext;
+    }
+}
 
 
 #endif /* SINGLELIST_H */

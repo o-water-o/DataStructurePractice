@@ -12,14 +12,15 @@
  */
 
 #include <cstdlib>
+#include"SingleList.cpp"
 
-using namespace std;
+//using namespace std;
 
 /*
  * 
  */
-int main(int argc, char** argv) {
-
+int main() {
+    test();
     return 0;
 }
 
