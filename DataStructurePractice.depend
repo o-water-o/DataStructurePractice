@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1548223970 source:d:\documents\project\datastructurepractice\main.c
+	<stdio.h>
+	<stdlib.h>
+	"singlelistP.h"
+
+1548227696 source:d:\documents\project\datastructurepractice\singlelist.c
+	"singlelist.h"
+	<stdio.h>
+
+1548213211 d:\documents\project\datastructurepractice\singlelist.h
+
+1548214291 d:\documents\project\datastructurepractice\singlelistp.h
+
+1548290086 source:d:\documents\project\datastructurepractice\singlelistp.c
+	<stdio.h>
+	"singlelist.h"
+

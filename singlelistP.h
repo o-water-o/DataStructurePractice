@@ -1,0 +1,6 @@
+#ifndef SINGLELISTP_H_INCLUDED
+#define SINGLELISTP_H_INCLUDED
+int test();
+
+
+#endif // SINGLELISTP_H_INCLUDED
