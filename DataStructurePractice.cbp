@@ -31,15 +31,15 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="./singlelistP.h" />
+		<Unit filename="SingleList/singlelist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SingleList/singlelist.h" />
+		<Unit filename="SingleList/singlelistP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SingleList/singlelistP.h" />
 		<Unit filename="main.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="singlelist.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="singlelist.h" />
-		<Unit filename="singlelistP.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>
